@@ -1,0 +1,207 @@
+.wrapperHome {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--clr-light);
+  color: var(--clr-grey);
+  position: fixed;
+}
+
+.wrappertext {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  animation: appear 2s ease;
+}
+
+.bigtitle {
+  font-family: var(--ff-serif);
+  font-weight: var(--fw-bold);
+  font-style: normal;
+  font-size: var(--fs-h1);
+  position: relative;
+  top: 20px;
+}
+
+.bigtitle:before {
+  content: '';
+  opacity: 0;
+  position: relative;
+  top: 20px;
+}
+
+.delay {
+  animation: upward 1s;
+  animation-fill-mode: forwards;
+}
+
+.delay1 {
+  animation: upward 1s 200ms;
+  animation-fill-mode: forwards;
+}
+
+.delay2 {
+  animation: upward 1s 400ms;
+  animation-fill-mode: forwards;
+}
+
+.wrapDot {
+  top: 100%;
+  position: absolute;
+  opacity: 0;
+  animation: appear 0.5s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  margin-top: 50px;
+}
+
+.dot-flashing {
+  width: 8px;
+  height: 8px;
+  border-radius: 55px;
+  background-color: var(--clr-light);
+  animation: dotFlashing 1s infinite linear alternate;
+  animation-delay: 0.5s;
+  border: 2px solid transparent;
+  /* left: 0; */
+}
+
+.dot-flashing::before,
+.dot-flashing::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-flashing::before {
+  top: -20px;
+  width: 11px;
+  height: 11px;
+  border-radius: 55px;
+  background-color: var(--clr-light);
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 0s;
+  border: 2px solid transparent;
+  left: 0;
+}
+
+.dot-flashing::after {
+  top: 20px;
+  width: 11px;
+  height: 11px;
+  border-radius: 55px;
+  background-color: var(--clr-light);
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 1s;
+  border: 2px solid transparent;
+  left: 0;
+}
+
+#waveSvg {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: -180px;
+  fill: var(--clr-pink);
+}
+.wrapperProjet {
+  position: relative;
+  top: 110vh;
+  text-align: center;
+  color: var(--clr-grey);
+  background-color: var(--clr-light);
+}
+
+.langue {
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  background: white;
+}
+
+.projets {
+  padding-top: 400px;
+}
+
+.container {
+  position: relative;
+  height: 110vh;
+}
+
+.Logo {
+  left: 50%;
+  position: sticky;
+  top: 20px;
+}
+
+.aboutRight {
+  position: sticky;
+  top: 20px;
+  width: 100%;
+}
+.stickit {
+  transform: rotate(270deg) translate(-50%);
+  -webkit-transform: rotate(270deg) translate(-50%);
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  top: 75px;
+}
+.stickit::after {
+  content: '';
+  width: 48px;
+  height: 3px;
+  background-color: var(--clr-grey);
+  position: absolute;
+  right: -75px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapProjet {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.splitG {
+  height: 100vh;
+  background-color: #fff;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.splitD {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+@keyframes dotFlashing {
+  0% {
+    border: 2px solid var(--clr-grey);
+  }
+  50%,
+  100% {
+    border: 2px solid var(--clr-light);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes upward {
+  0% {
+    top: 20px;
+  }
+  100% {
+    top: 0px;
+  }
+}

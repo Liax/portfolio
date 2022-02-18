@@ -1,38 +1,121 @@
+:root {
+  /* colors */
+  --clr-dark: #0d4944;
+  --clr-light: #e4eff9;
+  --clr-grey: #58585a;
+  --clr-pink: #efcdcd;
+
+  /* / font-sizes / */
+  --fs-h1: 4.375rem; /* Heading 1 150px */
+  --fs-h2: 3.25rem; /* Heading 2  100px */
+  --fs-h3: 2.15rem; /* Heading 3 56px */
+  --fs-h4: 1.75rem; /* Heading 4  32px  */
+  --fs-h5: 1.25rem; /* Heading 5  28px */
+  --fs-sh1: 1.7rem; /* Sub Heading 1  28px */
+  --fs-sh2: 0.875rem; /* Sub Heading 2  14px */
+  --fs-nav: 1rem; /* Nav 16px */
+  --fs-body: 1.125rem; /* body  18px*/
+
+  /* / Character Space / */
+  --letter-spacing-1: 0.296rem; /* Heading 5  4.75 */
+  --letter-spacing-2: 0.147rem; /* Sub Heading 2  2.35 */
+  --letter-spacing-nav: 0.17rem; /* Nav  2.7 */
+
+  /* / font-families */
+  --ff-serif: 'tuppence', serif;
+  --ff-sans: 'sarabun', sans-serif;
+
+  /* / font-weight */
+  --fw-bold: 700;
+  --fw-reg: 400;
+}
+
+/* --------------------- /
+/ Reset                 /
+/ --------------------- */
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* Reset Margin  */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+/* Body */
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  font-size: var(--fs-body);
+  font-family: var(--ff-sans);
+}
+
+/* Images */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/*make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: var(--ff-serif);
+  font-weight: var(--fw-reg);
+  font-size: var(--fs-h1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-reg);
+  font-size: var(--fs-h2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  font-family: var(--ff-serif);
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
 }
 
-.App-link {
-  color: #61dafb;
+h4 {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-reg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h5 {
+  text-transform: uppercase;
+  font-family: var(--ff-sans);
+  font-size: var(--fs-h5);
+  font-weight: var(--fw-bold);
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
 }
