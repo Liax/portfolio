@@ -1,0 +1,102 @@
+[
+  {
+    "name": "SOS Jeunes Pousses",
+    "id": 1,
+    "year": 2022,
+    "type": "développement",
+    "linked": "sosjp",
+    "subtitle": "sosjp",
+    "description": "",
+    "image": "https://claramartin.fr/images/mobile/reason7_logo.png"
+  },
+  {
+    "name": "Encounter Architect",
+    "id": 2,
+    "year": 2021,
+    "type": "développement",
+    "linked": "Encounter",
+    "subtitle": "Encounter",
+    "description": "`Resulting from a trajectory, a sequence of opportunities and architectural endeavors, this website is a selection of projects presenting the work of the studio to date. Encounter est un studio d'architect pour qui j'ai réalisé ce site. Il s'agit d'un wordpress avec developpement d'un thème.`",
+    "image": "https://claramartin.fr/images/ezeeplant_projects.jpg"
+  },
+  {
+    "name": "Skouts",
+    "id": 3,
+    "year": 2022,
+    "type": "illustration",
+    "linked": "skouts",
+    "subtitle": "Letting Skeletons Out",
+    "description": "Skouts est une marque en devenir regroupant mes illustrations. Passionée d'anatomie j'aime decortiquer dans un pointillisme meditatif les squelettes.",
+    "image": "https://claramartin.fr/images/troisfreres.png"
+  },
+  {
+    "name": "L'Agrumerie",
+    "id": 4,
+    "year": 2020,
+    "type": "développement",
+    "linked": "Agrumerie",
+    "subtitle": "Agrumerie",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Sneakers Empire",
+    "id": 5,
+    "year": 2019,
+    "type": "Graphisme",
+    "linked": "Sneakers",
+    "subtitle": "Sneakers",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Cherrylake",
+    "id": 6,
+    "year": 2017,
+    "type": "développement",
+    "linked": "cherrylake",
+    "subtitle": "Cherrylake",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Les veilleurs de News",
+    "id": 7,
+    "year": 2022,
+    "type": "développement",
+    "linked": "veilleurs",
+    "subtitle": "veilleurs",
+    "description": "",
+    "image": "https://claramartin.fr/images/mobile/reason7_logo.png"
+  },
+  {
+    "name": "Reason 7",
+    "id": 8,
+    "year": 2018,
+    "type": "développement",
+    "linked": "reason",
+    "subtitle": "Reason",
+    "description": "",
+    "image": "https://claramartin.fr/images/mobile/reason7_logo.png"
+  },
+  {
+    "name": "Trading point",
+    "id": 9,
+    "year": 2020,
+    "type": "développement",
+    "linked": "trading",
+    "subtitle": "Trading",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Radio Clito",
+    "id": 11,
+    "year": 2021,
+    "type": "développement",
+    "linked": "radioClito",
+    "subtitle": "radioClito",
+    "description": "",
+    "image": ""
+  }
+]

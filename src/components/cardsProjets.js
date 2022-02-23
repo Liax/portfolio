@@ -1,21 +1,49 @@
+import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import React from 'react'
 
-const cardsProjets = () => {
+const CardsProjets = (props) => {
+  let [isHover, setIsHover] = useState(false)
+
+  const titles = document.getElementsByClassName('projetTitle')
+  //console.log(titles)
+  // console.log(props)
+
+  //let titles = null
+  /*const viensici = () => {
+    titles = document.querySelector('.projetTitle')
+  }
+*/
+  const hoverTitle = () => {
+    console.log('poulet2', props.image)
+    props.setImage(props.image)
+    setIsHover(!isHover)
+  }
+
+  const outTitle = () => {
+    setIsHover(!isHover)
+  }
+
+  console.log('hidden', isHover)
   return (
-    <div>
-      <div className='title'>
-        <h1>TITRE PROJET</h1>
-        <h2>sous titre projet</h2>
+    <div className='projet'>
+      <Link to={`/${props.subtitle}`}>
+        <h1
+          onMouseOver={hoverTitle}
+          onMouseOut={outTitle}
+          className='projetTitle'
+        >
+          {props.name}
+        </h1>
+      </Link>
+      <div className={isHover ? 'showing' : 'hidden'}>
+        <h6>{props.subtitle}</h6>
         <p>
-          Ezeeplant développe des mini-jardins épurateurs d’air qui n’ont pas
-          besoin d’entretien, sont composés par vous, préparés par un
-          horticulteur près de chez vous, livrés et installés chez vous et
-          renouvelés quatre fois par an.
+          {props.year} • {props.type}
         </p>
       </div>
-      <div className='btn'>precedent</div>
     </div>
   )
 }
 
-export default cardsProjets
+export default CardsProjets

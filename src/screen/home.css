@@ -109,7 +109,7 @@
 }
 .wrapperProjet {
   position: relative;
-  top: 110vh;
+  top: 100vh;
   text-align: center;
   color: var(--clr-grey);
   background-color: var(--clr-light);
@@ -128,13 +128,20 @@
 
 .container {
   position: relative;
-  height: 110vh;
+  height: 100%;
+}
+
+.containerProjet {
+  height: 100vh;
+}
+.stickiTop {
+  position: sticky;
+  top: 20px;
+  z-index: 50000;
 }
 
 .Logo {
   left: 50%;
-  position: sticky;
-  top: 20px;
 }
 
 .aboutRight {
@@ -169,13 +176,66 @@
 }
 
 .splitG {
-  height: 100vh;
   background-color: #fff;
+  overflow: hidden;
   grid-area: 1 / 1 / 2 / 2;
 }
 
 .splitD {
   grid-area: 1 / 2 / 2 / 3;
+}
+
+.bgBlue {
+  background-color: var(--clr-light);
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+.titleProjets {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 150px;
+}
+
+.titleProjet {
+  text-align: left;
+  padding-top: 100px;
+}
+
+.projet {
+  margin: 50px 0 25px;
+}
+
+.containerDetails {
+  width: 60%;
+  text-align: left;
+  top: 30%;
+  transform: translateY(30%);
+  position: relative;
+  margin: auto;
+}
+.imgContainer {
+  width: 80%;
+  /* background-color: blue; */
+  height: 70vh;
+  margin: auto;
+  position: sticky;
+  top: 20%;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hidden {
+  opacity: 0;
+}
+.showing {
+  opacity: 1;
 }
 
 @keyframes dotFlashing {

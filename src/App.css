@@ -6,15 +6,16 @@
   --clr-pink: #efcdcd;
 
   /* / font-sizes / */
-  --fs-h1: 4.375rem; /* Heading 1 150px */
-  --fs-h2: 3.25rem; /* Heading 2  100px */
-  --fs-h3: 2.15rem; /* Heading 3 56px */
+  --fs-h1: 3.375rem; /* Heading 1 150px */
+  --fs-h2: 2.25rem; /* Heading 2  100px */
+  --fs-h3: 2rem; /* Heading 3 56px */
   --fs-h4: 1.75rem; /* Heading 4  32px  */
   --fs-h5: 1.25rem; /* Heading 5  28px */
-  --fs-sh1: 1.7rem; /* Sub Heading 1  28px */
+  --fs-sh1: 1.1rem; /* Sub Heading 1  28px */
   --fs-sh2: 0.875rem; /* Sub Heading 2  14px */
   --fs-nav: 1rem; /* Nav 16px */
   --fs-body: 1.125rem; /* body  18px*/
+  --fs-fat: 5.125rem; /* body  18px*/
 
   /* / Character Space / */
   --letter-spacing-1: 0.296rem; /* Heading 5  4.75 */
@@ -38,6 +39,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: var(--clr-grey);
+}
 /* Reset Margin  */
 body,
 h1,
@@ -113,6 +118,13 @@ h5 {
   font-family: var(--ff-sans);
   font-size: var(--fs-h5);
   font-weight: var(--fw-bold);
+}
+
+h6 {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-sh1);
+  font-weight: var(--fw-bold);
+  margin: 0;
 }
 
 .wrapper {
