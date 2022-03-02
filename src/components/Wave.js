@@ -6,9 +6,28 @@ import CardsProjets from '../components/CardsProjets.js'
 import Nav from '../components/Nav.js'
 
 const Wave = () => {
-  const [image, setImage] = useState(
-    'https://claramartin.fr/images/ezeeplant_projects.jpg'
-  )
+  // let [scrollFromTop, setScrollFromTop] = useState(0)
+  // let scrolling = false
+
+  // window.scroll = () => {
+  //   scrolling = true
+  // }
+
+  // setInterval(() => {
+  //   if (scrolling) {
+  //     scrolling = false
+  //     setScrollFromTop = 1000
+  //   }
+  // }, 300)
+
+  // window.addEventListener('scroll', function () {
+  //   if (scrolling === true) {
+  //     window.scrollTop(1000)
+  //   }
+  //   document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px'
+  // })
+
+  const [image, setImage] = useState('assets/projets/skouts.png')
   return (
     <>
       <div className='wrapperProjet'>
@@ -29,17 +48,19 @@ const Wave = () => {
         <div className='projets'>
           <div className='container'>
             <Nav />
-
+            <p id='showScroll'></p>
             <div className='wrapProjet'>
               <div className='splitG'>
                 <div className='titleProjets'>
                   {Projets.map((el, id) => (
                     <CardsProjets
                       key={id}
+                      id={id}
                       name={el.name}
                       year={el.year}
                       type={el.type}
                       subtitle={el.subtitle}
+                      linked={el.linked}
                       description={el.description}
                       image={el.image}
                       setImage={setImage}
@@ -49,7 +70,7 @@ const Wave = () => {
               </div>
               <div className='splitD'>
                 <div className='imgContainer'>
-                  <img src={image} alt={Projets.name} />
+                  <img src={require(`../${image}`)} alt={Projets.name} />
                 </div>
               </div>
             </div>

@@ -3,21 +3,37 @@
     "name": "SOS Jeunes Pousses",
     "id": 1,
     "year": 2022,
-    "type": "développement",
+    "type": "web - branding",
     "linked": "sosjp",
     "subtitle": "sosjp",
     "description": "",
-    "image": "https://claramartin.fr/images/mobile/reason7_logo.png"
+    "image": "assets/projets/sosjp1.png",
+    "images": [
+      "assets/projets/sosChartes.png",
+      "assets/projets/sosSite1.png",
+      "assets/projets/sosSite2.png",
+      "assets/projets/sosSite3.png",
+      "assets/projets/sosSite4.png"
+    ]
   },
   {
     "name": "Encounter Architect",
     "id": 2,
     "year": 2021,
-    "type": "développement",
+    "type": "web",
     "linked": "Encounter",
     "subtitle": "Encounter",
-    "description": "`Resulting from a trajectory, a sequence of opportunities and architectural endeavors, this website is a selection of projects presenting the work of the studio to date. Encounter est un studio d'architect pour qui j'ai réalisé ce site. Il s'agit d'un wordpress avec developpement d'un thème.`",
-    "image": "https://claramartin.fr/images/ezeeplant_projects.jpg"
+    "description": [
+      "Resulting from a trajectory, a sequence of opportunities and architectural endeavors, this website is a selection of projects presenting the work of the studio to date.",
+      "Encounter est un studio d'architect pour qui j'ai réalisé ce site. Il s'agit d'un wordpress avec developpement d'un thème."
+    ],
+    "image": "assets/projets/encounter.png",
+    "images": [
+      "assets/projets/encounter1.png",
+      "assets/projets/encounter2.png",
+      "assets/projets/encounter3.png",
+      "assets/projets/encounter4.png"
+    ]
   },
   {
     "name": "Skouts",
@@ -26,34 +42,65 @@
     "type": "illustration",
     "linked": "skouts",
     "subtitle": "Letting Skeletons Out",
-    "description": "Skouts est une marque en devenir regroupant mes illustrations. Passionée d'anatomie j'aime decortiquer dans un pointillisme meditatif les squelettes.",
-    "image": "https://claramartin.fr/images/troisfreres.png"
+    "description": [
+      "Skouts est une marque en devenir regroupant mes illustrations. Passionée d'anatomie j'aime decortiquer dans un pointillisme meditatif les squelettes."
+    ],
+    "image": "assets/projets/skouts.png",
+    "images": [
+      "assets/projets/petitsPied.png",
+      "assets/projets/troisfreres.png",
+      "assets/projets/doubleVoeux.png",
+      "assets/projets/pluto.png",
+      "assets/projets/horse.png",
+      "assets/projets/muresne.png",
+      "assets/projets/capu.png",
+      "assets/projets/fred.png"
+    ]
   },
   {
     "name": "L'Agrumerie",
     "id": 4,
     "year": 2020,
-    "type": "développement",
-    "linked": "Agrumerie",
+    "type": "web - branding",
+    "linked": "agrumerie",
     "subtitle": "Agrumerie",
     "description": "",
-    "image": ""
+    "image": "assets/projets/agrumerie0.png",
+    "images": [
+      "assets/projets/agrumerie1.png",
+      "assets/projets/agrumerie2.png",
+      "assets/projets/agrumerie3.png",
+      "assets/projets/agrumerie4.png",
+      "assets/projets/agrumerie5.png"
+    ]
   },
   {
     "name": "Sneakers Empire",
     "id": 5,
     "year": 2019,
-    "type": "Graphisme",
+    "type": "branding",
     "linked": "Sneakers",
     "subtitle": "Sneakers",
-    "description": "",
-    "image": ""
+    "description": [
+      "Non retenu",
+      "Mise à jour de l'identité visuelle de Sneakers Empire.",
+      "Sneakers Empire, association loi 1908, s’est donné pour objectif de rassembler les incollables comme les moins érudits autour d’un objet porté et aimé de tous : LES SNEAKERS AU DELÀ D’UN OBJET, UNE CULTURE. Au travers des Apéros Sneakers, de soirées, de conférences.",
+      "Les valeurs: Bienveillance, convivialité, renouvellement, regroupement, ouverture d’esprit, partage, échange, curiosité"
+    ],
+    "image": "assets/projets/sneakers0.png",
+    "images": [
+      "assets/projets/sneakers1.png",
+      "assets/projets/sneakers2.png",
+      "assets/projets/sneakers3.png",
+      "assets/projets/sneakers5.png",
+      "assets/projets/sneakers6.png"
+    ]
   },
   {
     "name": "Cherrylake",
     "id": 6,
     "year": 2017,
-    "type": "développement",
+    "type": "web",
     "linked": "cherrylake",
     "subtitle": "Cherrylake",
     "description": "",
@@ -63,7 +110,7 @@
     "name": "Les veilleurs de News",
     "id": 7,
     "year": 2022,
-    "type": "développement",
+    "type": "web",
     "linked": "veilleurs",
     "subtitle": "veilleurs",
     "description": "",
@@ -73,7 +120,7 @@
     "name": "Reason 7",
     "id": 8,
     "year": 2018,
-    "type": "développement",
+    "type": "web - branding",
     "linked": "reason",
     "subtitle": "Reason",
     "description": "",
@@ -83,7 +130,7 @@
     "name": "Trading point",
     "id": 9,
     "year": 2020,
-    "type": "développement",
+    "type": "web",
     "linked": "trading",
     "subtitle": "Trading",
     "description": "",
@@ -93,7 +140,7 @@
     "name": "Radio Clito",
     "id": 11,
     "year": 2021,
-    "type": "développement",
+    "type": "web",
     "linked": "radioClito",
     "subtitle": "radioClito",
     "description": "",

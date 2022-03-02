@@ -5,17 +5,8 @@ import React from 'react'
 const CardsProjets = (props) => {
   let [isHover, setIsHover] = useState(false)
 
-  const titles = document.getElementsByClassName('projetTitle')
-  //console.log(titles)
-  // console.log(props)
-
-  //let titles = null
-  /*const viensici = () => {
-    titles = document.querySelector('.projetTitle')
-  }
-*/
   const hoverTitle = () => {
-    console.log('poulet2', props.image)
+    // console.log('poulet2', props.image)
     props.setImage(props.image)
     setIsHover(!isHover)
   }
@@ -24,10 +15,10 @@ const CardsProjets = (props) => {
     setIsHover(!isHover)
   }
 
-  console.log('hidden', isHover)
   return (
     <div className='projet'>
-      <Link to={`/${props.subtitle}`}>
+      {/*Allows to have a dynamic url*/}
+      <Link to={`/${props.linked}`}>
         <h1
           onMouseOver={hoverTitle}
           onMouseOut={outTitle}
