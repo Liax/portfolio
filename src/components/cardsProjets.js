@@ -17,6 +17,8 @@ const CardsProjets = (props) => {
 
   return (
     <div className='projet'>
+      <p id='showScroll'></p>
+
       {/*Allows to have a dynamic url*/}
       <Link to={`/${props.linked}`}>
         <h1

@@ -27,6 +27,10 @@ const Wave = () => {
   //   document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px'
   // })
 
+  const scroo = () => {
+    window.scrollTo(0, 0)
+    document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px'
+  }
   const [image, setImage] = useState('assets/projets/skouts.png')
   return (
     <>
@@ -64,6 +68,9 @@ const Wave = () => {
                       description={el.description}
                       image={el.image}
                       setImage={setImage}
+                      onClick={() => {
+                        scroo()
+                      }}
                     />
                   ))}
                 </div>
