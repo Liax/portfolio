@@ -166,5 +166,25 @@
       "assets/projets/reason5.jpg"
     ],
     "link": "https://reason7.com/"
+  },
+  {
+    "name": "Radio Clito",
+    "id": 11,
+    "year": 2021,
+    "type": "web - stopped",
+    "linked": "radioClito",
+    "subtitle": "radioClito",
+    "description": "",
+    "image": "assets/projets/sneakers0.png"
+  },
+  {
+    "name": "Trading point",
+    "id": 9,
+    "year": 2020,
+    "type": "web",
+    "linked": "trading",
+    "subtitle": "Trading",
+    "description": "",
+    "image": "assets/projets/sneakers0.png"
   }
 ]

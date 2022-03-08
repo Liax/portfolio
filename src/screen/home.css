@@ -192,6 +192,7 @@
   position: fixed;
   width: 50%;
   left: 0;
+  top: 0;
   overflow: hidden;
 }
 .splitD {
@@ -222,11 +223,17 @@
   margin: 50px 0 25px;
 }
 
+#showScroll {
+  position: fixed;
+  top: 20px;
+  left: 50px;
+  z-index: 25550;
+}
 .containerDetails {
   width: 60%;
   text-align: left;
-  top: 30%;
-  transform: translateY(30%);
+  top: 50%;
+  transform: translateY(-50%);
   position: relative;
   margin: auto;
   min-height: 25vh;

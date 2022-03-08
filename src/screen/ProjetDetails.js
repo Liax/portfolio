@@ -9,14 +9,13 @@ const ProjetDetails = (props) => {
   const params = useParams()
   const subtitle = params.linked
 
-  // let next = dataProjets.id
-  // console.log(dataProjets.id)
-
-  // useEffect(() => {
-  //   fetch(dataProjets)
-  //     .then((res) => res.json())
-  //     .then((res) => console.log('poulet', res))
-  // }, [])
+  const scrollTopHome = () => {
+    window.scrollTo({
+      top: 1280,
+      left: 0,
+      // behavior: 'smooth',
+    })
+  }
 
   return (
     <div className=''>
@@ -48,10 +47,20 @@ const ProjetDetails = (props) => {
                     <p>{data.description[1]}</p>
                     <p>{data.description[2]}</p>
                     <p>{data.description[3]}</p>
-
+                    <h6>
+                      <a href={data.link} target='_blank' rel='noreferrer'>
+                        {data.link}
+                      </a>
+                    </h6>
                     <h5>
                       <Link to='/'>
-                        <span>Retour</span>
+                        <span
+                          onClick={() => {
+                            scrollTopHome()
+                          }}
+                        >
+                          Retour
+                        </span>
                       </Link>
                     </h5>
                   </div>
