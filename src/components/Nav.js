@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function Nav() {
   return (
     <div className='stickiTop'>
-      {/* <p id='showScroll'></p> */}
+      <p id='showScroll'></p>
 
       <div className='Logo'>
         <Link to='/'>

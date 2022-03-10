@@ -129,21 +129,6 @@
     "link": "https://cherrylake.com/"
   },
   {
-    "name": "Les veilleurs de News",
-    "id": 7,
-    "year": 2022,
-    "type": "web",
-    "linked": "veilleurs",
-    "subtitle": "veilleurs",
-    "description": [
-      "Développement web",
-      "Création d'une plateforme de gestion des veilles technologiques des alumnis d'un formateur. Indépendance dans l'ajout des veilles technologiques, mode présentation pour le formateur, affichage et tri de la multitude des veilles",
-      "développement react, création d'un panel admin et d'une base de donnée, projet d'équipe."
-    ],
-    "image": "assets/projets/sneakers0.png",
-    "images": ["assets/projets/veilleurs.jpg", "assets/projets/veilleur2.jpg"]
-  },
-  {
     "name": "Reason 7",
     "id": 8,
     "year": 2018,
