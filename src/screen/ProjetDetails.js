@@ -1,7 +1,7 @@
 import dataProjets from '../assets/projets.json'
 import Nav from '../components/Nav.js'
 import { Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+
 import { useParams } from 'react-router-dom'
 import '../screen/textDefile.css'
 
